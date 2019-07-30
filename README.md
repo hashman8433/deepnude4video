@@ -21,7 +21,6 @@ docker build -t deepnude/4videos .
 5. Exec docker container
 
 ```
-docker run --rm -it -v $PWD:/app:rw deepnude/4videos /bin/bash
 docker run --rm -it -v $PWD:/app:rw deepnude/4videos python main.py ./videos/in.mp4 ./videos/out.mp4
 ```
 
