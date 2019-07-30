@@ -49,7 +49,7 @@ def process_video(input_path, output_path):
 		out_frame = deep_nude_process(in_frame)
 
 		process2.stdin.write(
-			in_frame
+			out_frame
 			.astype(np.uint8)
 			.tobytes()
 		)
