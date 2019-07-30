@@ -30,7 +30,9 @@ https://github.com/zhengyima/DeepNude_NoWatermark_withModel
 
 # GPU Settings
 
-```./lib/gan.py
+in `./lib/gan.py`
+
+```
 - self.gpu_ids = []
 + self.gpu_ids = [0]
 ```
