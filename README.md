@@ -6,7 +6,7 @@ DeepNude Source Code for Videos
 
 1. Download the model
 
-https://github.com/zhengyima/DeepNude_NoWatermark_withModel
+https://github.com/hashman8433/DeepNude_NoWatermark_withModel.git
 
 2. Set models in the `/checkpoints` directory
 
